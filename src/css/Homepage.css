@@ -1,0 +1,35 @@
+.banner {
+    /* background-image: url('../images/banner.png');
+    background-size: cover;
+    background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background: linear-gradient(#a9f194, #dc94f1); */
+
+    background: linear-gradient(#a9f194, #dc94f1);
+
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#homepage_tagline {
+    font-size: 4rem;
+}
+
+.tagline {
+    color: red;
+}
+
+.homepage_sub_content {
+    font-size: 1.3rem;
+    font-family: "sans";
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    #homepage_tagline {
+        font-size: 2rem;
+    }
+}

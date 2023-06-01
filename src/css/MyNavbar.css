@@ -1,0 +1,25 @@
+ .navbar {
+     text-decoration: none;
+     color: white;
+     padding: 0 5px;
+     text-transform: capitalize;
+     line-height: 50px;
+ }
+
+ .brand {
+     text-transform: none !important;
+ }
+
+ .navbar:hover {
+     color: red;
+ }
+
+ .dropdown_css {
+     text-decoration: none !important;
+     color: black;
+ }
+
+ a {
+     text-decoration: none !important;
+ }
+ 

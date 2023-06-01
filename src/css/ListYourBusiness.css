@@ -1,0 +1,48 @@
+.mysection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.head_style {
+    text-Align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.benifits ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.benifits ul li {
+    margin-bottom: 1.2rem;
+    font-size: 5rem;
+    font-weight: 100px !important;
+    font-family: 'Montserrat', 'sans-serif';
+    color: red;
+}
+
+.CheckCircleOutlineIcon {
+    color: green;
+    margin-right: 5px;
+    font-size: 2rem !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+
+    .benifits ul li {
+        margin-bottom: 1rem;
+        font-size: 5rem;
+        font-weight: 100px !important;
+    }
+
+    .CheckCircleOutlineIcon {
+        color: green;
+        margin-right: 2px;
+        font-size: 1.2rem !important;
+    }
+}

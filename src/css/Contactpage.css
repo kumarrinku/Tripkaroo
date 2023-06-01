@@ -1,0 +1,19 @@
+ .contactUs_left_info_section p {
+     margin: 5px 0;
+     padding: 0;
+ }
+
+ .contactUs_left_info_section h4 {
+     margin: 0;
+     padding: 0;
+     display: inline-block;
+     vertical-align: middle;
+     margin-left: 4px;
+ }
+
+ .contactUs_right_form_section {
+     border: 1px solid blue;
+ }
+ .contactUs_form{
+     background:#EEEEEE;
+ }

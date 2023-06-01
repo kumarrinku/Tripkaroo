@@ -1,0 +1,160 @@
+import React, { useState } from 'react';
+
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { CardActionArea, CardActions } from '@mui/material';
+
+import './css/Bikes.css';
+
+
+
+import scooty from './images/honda_activa_6g.jpg';
+import duke from './images/Duke_Bike.png';
+import avengers from './images/avenger_bike.png';
+import royal_enfield from './images/royal_enfield.jpg';
+import thunderbird from './images/thunderbird.png';
+
+import Button from '@mui/material/Button'; 
+
+const Bikes = () => {
+ 
+
+    return (
+        <div>
+            <div className="container mt-5">
+                <input type="search" placeholder='Search Bike or Car Name' id='bikes_search_bar' />
+                <div className="row">
+                    <div className="col-md-4 mb-4 text-center">
+                        <Card >
+                            <CardActionArea>
+                                <CardMedia component="img" height="140" image={scooty} alt="honda Activa" sx={{ objectFit: "contain" }}
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Honda Activa 6G
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                       <del className='m-2'>699 </del>
+
+                                         Rs. 649/DAY
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions className='bike_book_now_button'>
+                                <a href="tel:8127775550">
+                                    <Button size="medium" variant="contained" color="success">
+                                        Book Now
+                                    </Button>
+                                </a>
+                            </CardActions>
+                        </Card>
+                    </div>
+                    <div className="col-md-4 mb-4 text-center">
+                        <Card >
+                            <CardActionArea>
+                                <CardMedia component="img" height="140" image={duke} alt="Duke 200" sx={{ objectFit: "contain" }}
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        KTM Duke 200
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                       <del className='m-2'>1299 </del>
+                                         Rs. 1149/DAY
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions className='bike_book_now_button'>
+                                <a href="tel:8127775550">
+                                    <Button size="medium" variant="contained" color="success">
+                                        Book Now
+                                    </Button>
+                                </a>
+                            </CardActions>
+
+                        </Card>
+                    </div>
+
+                    <div className="col-md-4 mb-4 text-center">
+                        <Card >
+                            <CardActionArea>
+                                <CardMedia component="img" height="140" image={avengers} alt="Avengers" sx={{ objectFit: "contain" }}
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Avengers
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                       <del   className='m-2'>1299 </del>
+                                         Rs.999/DAY
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions className='bike_book_now_button'>
+                                <a href="tel:8127775550">
+                                    <Button size="medium" variant="contained" color="success">
+                                        Book Now
+                                    </Button>
+                                </a>
+                            </CardActions>
+                        </Card>
+                    </div>
+
+                    <div className="col-md-4 mb-4 text-center">
+                        <Card >
+                            <CardActionArea>
+                                <CardMedia component="img" height="140" image={royal_enfield} alt="royalEnfield" sx={{ objectFit: "contain" }}
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Royal Enfield
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                       <del className='m-2'>1399 </del>
+                                         Rs. 1359/DAY
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions className='bike_book_now_button'>
+                                <a href="tel:8127775550">
+                                    <Button size="medium" variant="contained" color="success">
+                                        Book Now
+                                    </Button>
+                                </a>
+                            </CardActions>
+                        </Card>
+                    </div>
+
+                    <div className="col-md-4 mb-4 text-center">
+                        <Card >
+                            <CardActionArea>
+                                <CardMedia component="img" height="140" image={thunderbird} alt="thunderbird" sx={{ objectFit: "contain" }}
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Royal Enfield Thunderbird
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                       <del className='m-2'>1399 </del>
+                                         Rs. 1359/DAY
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions className='bike_book_now_button'>
+                                <a href="tel:8127775550">
+                                    <Button size="medium" variant="contained" color="success">
+                                        Book Now
+                                    </Button>
+                                </a>
+                            </CardActions>
+                        </Card>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Bikes;

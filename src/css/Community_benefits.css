@@ -1,0 +1,48 @@
+.community_box {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#community_sub_heading {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.community_head {
+    font-size: 2.5rem;
+    margin: 5px 0 30px 0;
+}
+
+.community_benefits {
+    text-align: center;
+}
+
+.left_side_images {
+    height: 350px;
+    object-fit: cover;
+}
+
+.benefits_icon {
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.benefits_icon {
+    color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    #community_sub_heading {
+        font-size: 1.6rem;
+    }
+
+    .community_head {
+        font-size: 1.5rem;
+    }
+}
